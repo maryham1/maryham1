@@ -1,0 +1,129 @@
+body{
+    background-color:rgb(230, 228, 228);
+orientation: landscape;}
+img{
+    width:150px;
+    height:100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;}
+.admission{
+        color:red;
+        text-align:center;
+        font-family:sans-serif;
+        margin-top:-2px;}
+ section{
+    background-color:white;
+    height:400px;
+    width:400px;
+    margin-left:400px;
+    border-radius:5px;
+    margin-top:10px;
+    padding:20px;}    
+    h4{color:red;
+    text-align:center;}  
+    form{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+    }
+ input[type="text"],select{
+        background-color:transparent;
+        padding:5px;
+        border:1px solid grey;
+        border-radius:5px;
+        width:170px;}
+  option{
+            background-color:brown;
+            color:white;
+        }
+
+  select{
+            background-color:transparent;
+            padding:5px;
+            border:1px solid grey;
+            border-radius:5px;
+            width:170px;
+        
+        margin-left:200px;
+    margin-top:-40px;}
+            
+    input[type="submit"]{
+        background-color:goldenrod;
+        color:white;
+        
+        border-radius:3px;
+        text-align:center;
+        cursor:pointer;
+        width:120px;
+        font-weight:bold;
+        
+        padding:8px;
+        border:1px solid goldenrod;}
+    
+        @media(max-width:450px){
+            body{
+                background-color:rgb(230, 228, 228);
+            orientation: landscape;}
+            img{
+                width:150px;
+                height:100px;
+                display:block;
+                margin-left:auto;
+                margin-right:auto;}
+            .admission{
+                    color:red;
+                    text-align:center;
+                    font-family:sans-serif;
+                    margin-top:-2px;}
+             section{
+                background-color:white;
+                height:400px;
+                width:280px;
+                margin-left:20px;
+                border-radius:5px;
+                margin-top:10px;
+                padding:20px;}    
+                h4{color:red;
+                text-align:center;}  
+                form{
+                    display:flex;
+                    flex-direction:column;
+                    gap:10px;
+                }
+             input[type="text"],select{
+                    background-color:transparent;
+                    padding:5px;
+                    border:1px solid grey;
+                    border-radius:5px;
+                    width:120px;}
+              option{
+                        background-color:brown;
+                        color:white;
+                    }
+            
+              select{
+                        background-color:transparent;
+                        padding:5px;
+                        border:1px solid grey;
+                        border-radius:5px;
+                        width:120px;
+                    
+                    margin-left:150px;
+                margin-top:-40px;}
+                        
+                input[type="submit"]{
+                    background-color:goldenrod;
+                    color:white;
+                    
+                    border-radius:3px;
+                    text-align:center;
+                    cursor:pointer;
+                    width:120px;
+                    font-weight:bold;
+                    
+                    padding:8px;
+                    border:1px solid goldenrod;}
+                
+        }
+            

@@ -1,0 +1,211 @@
+body{
+    background-color:rgb(230, 228, 228);
+orientation: landscape;
+}
+img{
+    width:150px;
+    height:100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.welcome{
+    background-color:white;
+    border:1px solid white;
+    width:900px;
+    height:1240px;
+    
+    margin-left:200px;
+    margin-top:25px;
+    padding:20px;
+    font-family:sans-serif;
+}
+.admission{
+    color:red;
+    text-align:center;
+    font-family:sans-serif;
+    margin-top:-2px;
+}
+.login{
+    color:blue;
+}
+a{
+    text-decoration:none;
+}
+.reset{
+    width:880px;
+    height:70px;
+    padding:10px;
+    background-color:rgb(238, 206, 238);
+    color:brown;
+    border-radius:5px;
+    border:1px solid plum; 
+}
+.mycontainer{display:flex;
+   flex-direction: row; 
+   gap:10px;
+   flex-wrap:wrap;
+   
+   padding:10px;
+   
+}
+.post{
+    border-radius:2px;
+    border:1px solid rgb(230, 228, 228);
+    padding:10px;
+    width:170px;
+    height:350px;
+}
+.graduate{
+    background-color:goldenrod;
+    color:white;
+    padding:10px;
+    width:170px;
+    height:60px;
+    margin-left:-10px;
+    margin-top:-10px;
+    text-align:center;
+}
+.naira{
+    background-color:rgb(230, 228, 228);
+    color:grey;
+    padding:10px;
+    width:170px;
+    height:60px;
+    margin-left:-10px;
+    margin-top:-10px;
+    text-align:center;
+}
+hr{
+    color:rgb(230, 228, 228);
+width:190px;
+margin-left:-10px;
+}
+footer{
+    background-color:rgb(230, 228, 228);
+    width:170px;
+    height:60px;
+    padding:10px;
+    margin-left:-10px;
+    margin-top:53px;
+}
+input[type="submit"]{
+    background-color:green;
+    padding:10px;
+    color:white;
+    border-radius:5px;
+    border:1px solid green;
+    cursor:pointer;
+    font-weight:bold;
+    margin-left:30px;
+    margin-top:10px;
+
+}
+@media (max-width:450px){body{
+    background-color:rgb(230, 228, 228);
+orientation: landscape;
+}
+img{
+    width:80px;
+    height:60px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.welcome{
+    background-color:white;
+    border:1px solid white;
+    width:280px;
+    height:2700px;
+    
+    margin-left:15px;
+    margin-top:20px;
+    padding:20px;
+    font-family:sans-serif;
+}
+.admission{
+    color:red;
+    text-align:center;
+    font-family:sans-serif;
+    margin-top:-2px;
+}
+.login{
+    color:blue;
+}
+a{
+    text-decoration:none;
+}
+.reset{
+    width:260px;
+    height:195px;
+    padding:10px;
+    background-color:rgb(238, 206, 238);
+    color:brown;
+    border-radius:5px;
+    border:1px solid plum; 
+}
+.mycontainer{display:flex;
+   flex-direction: row; 
+   gap:20px;
+   flex-wrap:wrap;
+   float: left;
+   
+   
+}
+.post{
+    border-radius:2px;
+    border:1px solid rgb(230, 228, 228);
+    padding:px;
+    width:95px;
+    height:400px;
+}
+.graduate{
+    background-color:goldenrod;
+    color:white;
+    padding:10px;
+    width:95px;
+    height:75px;
+    margin-left:-10px;
+    margin-top:-10px;
+    text-align:center;
+}
+.naira{
+    background-color:rgb(230, 228, 228);
+    color:grey;
+    padding:10px;
+    width:95px;
+    height:40px;
+    margin-left:-10px;
+    margin-top:-10px;
+    text-align:center;
+}
+hr{
+    color:rgb(230, 228, 228);
+width:115px;
+margin-left:-10px;
+}
+footer{
+    background-color:rgb(230, 228, 228);
+    width:95px;
+    height:40px;
+    padding:10px;
+    margin-left:-10px;
+    margin-top:112px;
+}
+input[type="submit"]{
+    background-color:green;
+    padding:10px;
+    color:white;
+    border-radius:5px;
+    border:1px solid green;
+    cursor:pointer;
+    font-weight:bold;
+    margin-left:-2px;
+    margin-top:2px;
+
+}
+}
+
+

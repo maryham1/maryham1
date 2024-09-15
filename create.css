@@ -1,0 +1,144 @@
+body{
+    background-color:rgb(230, 228, 228);
+orientation: landscape;
+}
+img{
+    width:150px;
+    height:100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.admission{
+    color:red;
+    text-align:center;
+    font-family:sans-serif;
+    margin-top:-2px;
+}
+section{
+    background-color:white;
+    height:500px;
+    width:300px;
+    margin-left:500px;
+    border-radius:5px;
+    padding:20px;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;}
+    input[type="email"],input[type="password"],input[type="text"]{
+        background-color:transparent;
+        padding:5px;
+        border:1px solid grey;
+        border-radius:5px;
+        width:275px;
+    }
+    select{
+        background-color:transparent;
+        padding:5px;
+        border:1px solid grey;
+        border-radius:5px;
+        width:285px;
+    }
+    option{
+        background-color:brown;
+        border-radius:10px;
+        color:white;
+    } 
+        
+    input[type="submit"]{
+        background-color:goldenrod;
+        color:white;
+        border:1px solid red;
+        border-radius:3px;
+        text-align:center;
+        cursor:pointer;
+        width:120px;
+        font-weight:bold;
+        padding:8px;
+    } 
+
+footer{
+
+    background-color:rgb(230, 228, 228);
+padding:20px;
+color:black;
+margin-top:18px;
+width:300px;
+margin-left:-20px;
+}
+@media(max-width:450px){
+    body{
+        background-color:rgb(230, 228, 228);
+    orientation: landscape;
+    }
+    img{
+        width:100px;
+        height:80px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .admission{
+        color:red;
+        text-align:center;
+        font-family:sans-serif;
+        margin-top:-2px;
+        
+    }
+    section{
+        background-color:white;
+        height:500px;
+        width:250px;
+        margin-left:15px;
+        border-radius:5px;
+        padding:20px;
+    }
+    form{
+        display:flex;
+        flex-direction:column;
+        gap:20px;}
+        input[type="email"],input[type="password"],input[type="text"]{
+            background-color:transparent;
+            padding:5px;
+            border:1px solid grey;
+            border-radius:5px;
+            width:220px;
+        }
+        select{
+            background-color:transparent;
+            padding:5px;
+            border:1px solid grey;
+            border-radius:5px;
+            width:225px;
+        }
+        option{
+            background-color:brown;
+            border-radius:10px;
+            color:white;
+        } 
+            
+        input[type="submit"]{
+            background-color:goldenrod;
+            color:white;
+            border:1px solid red;
+            border-radius:3px;
+            text-align:center;
+            cursor:pointer;
+            width:120px;
+            font-weight:bold;
+            padding:8px;
+        } 
+    
+    /* footer{
+    
+        background-color:rgb(230, 228, 228);
+    padding:px;
+    color:black;
+    margin-top:px;
+    width:px;
+    margin-left:px;
+    }
+ */
+}

@@ -1,0 +1,134 @@
+body{
+    background-color:rgb(230, 228, 228);
+orientation: landscape;
+}
+img{
+    width:150px;
+    height:100px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.admission{
+    color:red;
+    text-align:center;
+    font-family:sans-serif;
+    margin-top:-2px;
+}
+div.mycontainer{
+    width: 100%;
+    overflow:auto;
+    margin-left:200px;
+}
+div.mycontainer div
+{
+    width:30%;
+    float:left;
+    height:400px;
+    padding:20px;
+    border:2px;
+
+
+}
+form{display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+input[type="password"]{
+    background-color:transparent;
+    padding:5px;
+    border:1px solid grey;
+    border-radius:5px;
+    width:300px;}
+    input[type="submit"]{
+        background-color:goldenrod;
+        color:black;
+        cursor:pointer;
+        font-weight:bold;
+        text-align:center;
+        padding:10px;
+        width:170px;
+        border-radius:5px;
+        border:1px solid goldenrod;
+    }
+    .color{
+        color:red;
+        text-decoration:underline ;
+        margin-top:-30px;
+        margin-left:200px;
+    }
+    a{
+        color:red;
+        margin-left:150px;;
+        text-decoration:none;
+        font-size:20px;
+    }
+
+@media(max-width:450px){
+    body{
+        background-color:rgb(230, 228, 228);
+    orientation: landscape;
+    }
+    img{
+        width:100px;
+        height:100px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .admission{
+        color:red;
+        text-align:center;
+        font-family:sans-serif;
+        margin-top:-2px;
+    }
+    div.mycontainer{
+        width: 100%;
+        overflow:auto;
+        margin-left:50px;
+    }
+    div.mycontainer div
+    {
+        width:35%;
+        float:left;
+        height:1000px;
+        padding:20px;
+        border:2px;
+    
+    
+    }
+    form{display:flex;
+        flex-direction:column;
+        gap:20px;
+    }
+    input[type="password"]{
+        background-color:transparent;
+        padding:5px;
+        border:1px solid grey;
+        border-radius:5px;
+        width:100px;}
+        input[type="submit"]{
+            background-color:goldenrod;
+            color:black;
+            cursor:pointer;
+            font-weight:bold;
+            text-align:center;
+            padding:10px;
+            width:120px;
+            border-radius:5px;
+            border:1px solid goldenrod;
+        }
+        .color{
+            color:red;
+            text-decoration:underline ;
+            margin-top:20px;
+            margin-left:-3px;
+        }
+        a{
+            color:red;
+            margin-left:50px;;
+            text-decoration:none;
+            font-size:20px;
+        }
+    
+}
